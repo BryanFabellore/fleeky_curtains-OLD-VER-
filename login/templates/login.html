@@ -28,7 +28,7 @@
                     <a class="link" href="{%url 'index'%}">Home</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#portfolio">Contact</a>
+                    <a class="link" href="#portfolio">All Products</a>
                 </li>
                 <li class="item">
                     <a class="link" href="#testmonial">About</a>
@@ -43,7 +43,7 @@
     </nav><!-- End of Page Navbar -->
 
     <!-- page header -->
-    <header id="home" class="header">
+    <header id="home" class="header">   
         <div class="overlay"></div>
         <div class="header-content container">
             <h1 class="header-title">
@@ -56,6 +56,31 @@
         </div>              
     </header><!-- end of page header -->
 	
+    <!-- login page -->
+    <section class="section" id="contact">
+         <p>&nbspLogin</p>
+
+         <form class="px-4 py-3">
+            <div class="form-group">
+               <input type="email" class="form-control" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+               <input type="password" class="form-control" placeholder="Password">
+            </div>
+            <div class="form-check mb-3">
+               <input type="checkbox" class="form-check-input" id="dropdownCheck">
+               <label class="form-check-label" for="dropdownCheck">
+                  Remember me
+               </label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+         </form>
+         <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"><small>New around here? Sign up</small></a>
+            <a class="dropdown-item" href="#"><small>Forgot password?</small></a>
+
+    </section> <!-- end of login page -->
+
 	<!-- core  -->
     <script src="{%static '/vendors/jquery/jquery-3.4.1.js'%}"></script>
     <script src="{%static '/vendors/bootstrap/bootstrap.bundle.js'%}"></script>
